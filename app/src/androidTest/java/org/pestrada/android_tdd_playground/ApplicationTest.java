@@ -1,4 +1,4 @@
-package levelp.androidapp;
+package org.pestrada.android_tdd_playground;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
