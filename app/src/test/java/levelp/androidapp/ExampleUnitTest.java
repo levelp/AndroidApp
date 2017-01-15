@@ -28,4 +28,9 @@ public class ExampleUnitTest {
         assertEquals("a - не число", Calc.sum("a", "5"));
         assertEquals("Test - не число", Calc.sum("66", "Test"));
     }
+
+    @Test
+    public void testFailed() throws Exception {
+        assertEquals(5, 2 + 2);
+    }
 }
